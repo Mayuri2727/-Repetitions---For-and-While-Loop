@@ -1,0 +1,12 @@
+# A shell script to find the factorial of a number
+
+read -p "Enter a number: " num
+fact=1
+
+for((i=2;i<=num;i++))
+{
+  fact=$((fact*i))
+}
+
+echo "factorial of a number is : " $fact
+
